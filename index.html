@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Universo Post</title>
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./asset/icon/icon.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top ps-4 pe-4">
+        <!-- barra navegacion - icono - logo -->
+        <a href="#" class="navbar-brand d-flex gap-2">
+          <img class="icon-logo" src="./asset/icon/icon.png" alt="icon id">
+          <h1 class="nav-bar-title align-self-center p-2">El Universo Post</h1>
+        </a>
+        <!-- barra navegacion - boton despegable - mobile responsive - opciones-->
+         <button class="navbar-toggler btn-active-white bg-white border" type="button" data-bs-toggle="collapse" data-bs-target="#elUniversoPost">
+          <span class="navbar-toggler-icon"></span>
+         </button>
+    
+         <div class="collapse navbar-collapse ms-5 me-5" id="elUniversoPost">
+          <ul class="navbar-nav mb-md-0">
+
+            <li class="nav-item navbar-text-item"><a href="./index.html" class="nav-link">Home</a></li>
+            <li class="nav-item navbar-text-item"><a href="#" class="nav-link">Portada</a></li>
+            <li class="nav-item dropdown navbar-text-item">
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-categoria">Seccion</a>
+              <ul class="dropdown-menu " aria-labelledby="dropdown-categoria">
+                <li class="navbar-text-item-2"><a href="#" class="dropdown-item">Planetas</a></li>
+                <li class="navbar-text-item-2"><a href="#" class="dropdown-item">Viajes al Espacio</a></li>
+                <li class="navbar-text-item-2"><a href="#" class="dropdown-item">Satelites</a></li>
+                <li class="navbar-text-item-2"><a href="#" class="dropdown-item">Astrologia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown navbar-text-item">
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-recomendadas">Recomendadas</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown-recomendadas">
+                <li class="navbar-text-item-2"><a href="" class="dropdown-item">Conquista de espacial</a></li>
+                <li class="navbar-text-item-2"><a href="" class="dropdown-item">Via lactia</a></li>
+              </ul>
+            </li>
+          </ul>
+         </div>
+         <!-- barra navegacion - boton despegable - mobile responsive - login-->
+         <div class="collapse navbar-collapse ms-5 me-5 d-flex-md justify-content-end" id="elUniversoPost">
+            <ul class="navbar-nav mb-2 mb-md-0">
+              <li class="nav-item dropdown navbar-text-item">
+                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-login">Login</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-login">
+                  <li class="navbar-text-item-2"><a href="" class="dropdown-item">Crear cuenta</a></li>
+                  <li class="navbar-text-item-2"><a href="" class="dropdown-item">Ingresar cuenta</a></li>
+                  <li class="navbar-text-item-2"><a href="" class="dropdown-item">Olvido usuario?</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    <main >
+        <!-- principal -->
+        <section class="row ms-md-2 me-md-2 section-main">
+            <!-- principal - auxiliar - izquierda -->
+            <div class="col-md-3 order-2 order-md-1  d-flex flex-column gap-5">
+                <section class="row m-2">
+
+                    <img class="col-6 col-md-12 border-dark-img p-0" src="./asset/img/articulo-auxiliar-1.webp" alt="">
+
+                    <article class="col-6 col-md-12">
+                        <h2 class="title-2">Polaris Dawn: la "arriesgada" mision privada</h2>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-secondary">Leer mas</button>
+                        </div>
+                    </article>
+
+                </section>
+                <section class="row m-2">
+                    <img class="col-6 order-1 order-md-0 col-md-12 border-dark-img p-0" src="./asset/img/articulo-auxiliar-2.webp" alt="">
+                    <article class="col-6 col-md-12">
+                        <h2 class="title-2">Hallazgo del tercer campo que rodea a la Tierra</h2>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-secondary">Leer mas</button>
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <!-- principal - principal - medio -->
+            <section class="col-md-6 order-1 order-md-2 p-0">
+                <div class="row m-2">
+
+                    <img class="col border-dark-img p-0" src="./asset/img/articulo-principal.webp" alt="">
+
+                    <article class="col ">
+                        <h2 class="m-2 title-1">“Desde aquí, la Tierra parece como un mundo perfecto”: por primera vez dos astronautas no profesionales realizan una caminata espacial privada</h2>
+                        <p class="m-2 text-1" >Científicos han encontrado evidencias de que el polo sur de nuestro satélite natural estuvo cubierto por un mar de roca líquida fundida.Este hallazgo respalda una teoría que apunta a que el magma fue lo que formó la superficie de la Luna hace unos 4.500 millones de años. Los restos del océano fueron hallados por la histórica misión Chandrayaan-3, lanzada por India, que aterrizó en el polo sur de la Luna hace un año.</p>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-secondary">Leer mas</button>
+                        </div>
+                    </article>
+                    
+                </div>
+            </section>
+            <!-- principal - secundario - derecha -->
+            <div class="col-md-3 order-3">
+                <section class="row m-2">
+
+                    <img class="col border-dark-img p-0" src="./asset/img/articulo-secundario-1.webp" alt="">
+
+                    <article class="col">
+                        <h2 class="title-1">El hallazgo de un "océano de magma" extinto en la Luna que ayuda a explicar cómo se formó nuestro satélite natural</h2>
+                        <p class="text-1" >Hubo una época en la que una parte de la Luna tenía un “océano”, pero muy diferente a lo que conocemos en la Tierra.Científicos han encontrado evidencias de que el polo sur de nuestro satélite natural estuvo cubierto por un mar de roca líquida fundida. Este hallazgo respalda una teoría que apunta a que el magma fue lo que formó la superficie de la Luna hace unos 4.500 millones de años.</p>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-secondary">Leer mas</button>
+                        </div>
+                    </article>
+
+                </section>
+            </div>
+        </section>
+        <!-- secundario -->
+        <section class="ms-md-2 me-md-2">
+            <div class="row ms-md-2 me-md-2">
+                <div class="col-md-9 col-12 gap-5">
+                    <!-- secundario - principal - derecha -->
+                    <div class="row p-2">
+                        <div class="col-6 ">
+                            <!-- secundario -articulo 1 -->
+                            <section class="row m-2">
+                                <article class="col">
+                                    <h2 class="title-2">La partícula de Higgs podría haber acabado ya con el universo</h2>
+                                    <p class="text-1" >Con 13.700 millones de años de existencia, puede dar la impresión de que nuestro universo es estable. Sin embargo, diversos experimentos han sugerido que está en riesgo.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-secondary">Leer mas</button>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <!-- secundario -articulo 2 -->
+                            <section class="row m-2">
+                                <article class="col">
+                                    <h2 class="title-2">La NASA comenzará el ascenso por el cráter Jezero en Marte</h2>
+                                    <p class="text-1" >El rover Perseverance de la NASA comenzará el ascenso durante un mes por el borde occidental del cráter Jezero en Marte, que incluirá algunos de los terrenos más desafiantes     que haya transitado hasta la fecha</p>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-secondary">Leer mas</button>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <!-- secundario -articulo 3 -->
+                            <section class="row m-2">
+                                <article class="col">
+                                    <h2 class="title-2">La alucinante historia que nos cuentan los restos de una supernova</h2>
+                                    <p class="text-1" >SS433 fue identificada como una estrella binaria compuesta por un agujero negro algo más masivo que el Sol, lo que quedó de aquella explosión de supernova, y una estrella unas 10 veces más masiva que nuestra estrella.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-secondary">Leer mas</button>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <!-- secundario -articulo 4 -->
+                            <section class="row m-2">
+                                <article class="col">
+                                    <h2 class="title-2">¿Qué provocó la alta temperatura del Big Bang</h2>
+                                    <p class="text-1" >En la vida cotidiana entendemos que cuando algo está a una temperatura muy alta, por ejemplo una olla que está al calor, lo que estamos percibiendo es la capacidad de que ocurra un intercambio de energía en forma de calor entre el objeto que está a mayor temperatura y el que está a menor temperatura.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-secondary">Leer mas</button>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <!-- secundario -articulo 5 -->
+                            <section class="row m-2">
+                                <article class="col">
+                                    <h2 class="title-2">Saturno, espléndido durante estos días de septiembre</h2>
+                                    <p class="text-1" >Durante esta época, el planeta es visible toda la noche: se levanta según se acuesta el Sol, alcanza su máxima elevación (culminación) hacia la medianoche, y se pone al amanecer Saturno pasará por su oposición (se verá desde la Tierra perfectamente opuesto al Sol, iluminado frontalmente) el 8 de septiembre</p>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-secondary">Leer mas</button>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <!-- secundario -articulo 6 -->
+                            <section class="row m-2">
+                                <article class="col">
+                                    <h2 class="title-2">El impacto de un asteroide desplazó el eje de la luna más grande del Sistema Solar</h2>
+                                    <p class="text-1" >"Sabíamos que esta característica fue creada por el impacto de un asteroide hace unos 4.000 millones de años, pero no estábamos seguros de la magnitud de este impacto ni del efecto que tuvo en esa luna", explica uno de los autores, Hirata Naoyuki, de la Universidad japonesa de Kobe.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-secondary">Leer mas</button>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <!-- secundario - publicicad - derechas -->
+                        <section class="m-2">
+                            <article class="row p-0 gap-md-5">
+                                <div class="col-6 col-md-12">
+                                    <img class="col-12" src="./asset/img/publicidad-1.webp" alt="">
+                                    <h2 class="title-2">¡Gane millones de dólares desde casa sin esfuerzo!</h2>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <img class="col-12" src="./asset/img/publicidad-2.webp" alt="">
+                                    <h2 class="title-2">Este producto natural te hará perder 10 kilos en una semana!</h2>
+                                </div>
+                            </article>
+                        </section>
+                    </div>        
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="">
+        <!-- footer - redes sociales -izquierda -->
+        <div class="row ms-md-4 me-md-4 p-0 m-0">
+            <ul class="col-7 col-md-6 m-0">
+                <li class="row title-3 m-1">Siguenos y comparte:</li>
+                <div class="row m-2 list-unstyled ">
+                    <li class="col-4 col-md-2"><img class="col-4 col-md-4 icon-logo-2" src="./asset/icon/icon-rrss-1.png" alt="logo tik tik-tok"></li>
+
+                    <li class="col-4 col-md-2"><img class="col-4 col-md-4 icon-logo-2" src="./asset/icon/icon-rrss-2.png" alt="logo you tube"></li>
+    
+                    <li class="col-4 col-md-2"><img class="col-4 col-md-4 icon-logo-2" src="/asset/icon/icon-rrss-3.png" alt="logo de equis"></li>
+                </div>
+            </ul>
+            <!-- footer - desarrollado - derecha-->
+            <ul class="col-5 col-md-6 list-unstyled p-0 m-0 d-flex flex-column justify-content-end">
+                <li class="title-3 text-end">Desarrollado por iDnse❤️ </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'ubuntu-regular';
+    src: url(/asset/font/Ubuntu-Regular.ttf);
+    font-family: 'ubuntu-bold';
+    src: url(/asset/font/Ubuntu-Bold.ttf);
+}
+:root{
+    --color1:#212529;
+    --color2:rgba(73, 80, 87, 0.514);
+    --color3:#adb5bd;
+    --light:rgb(245, 247, 248);
+    --dark:rgb(24, 28, 20, 0.3);
+    --ur:'ubuntu-regular';
+    --ub:'ubuntu-bold';
+    --sm:1.2em;
+    --md:1.6em;
+    --lg:1.8em;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--ur);
+    background-color: var(--light);
+}
+/* header - barra navegacion */
+nav{
+    background-color:var(--color1);
+    border-bottom: 4px solid var(--color3);
+}
+
+/* logo - titulo - barra de navegacion */
+.icon-logo{
+    background-color: var(--light);
+    border-radius: 50%;
+}
+
+.nav-bar-title{
+    margin: 0;
+    color: var(--light);
+    font-size: var(--lg);
+    font-family: var(--ub);
+}
+/* barra de navegacion principal */
+.navbar-text-item a{
+    color: var(--light);
+    font-size: var(--md);
+}
+.navbar-text-item-2 a{
+    color: var(--color2);
+    font-size: var(--sm);
+}
+/* body - Contenido */
+main{
+    padding-top: 60px;    
+}
+.section-main{
+    border-bottom: 1px solid var(--color2);
+}
+.title-1{
+    margin: 10px;
+    text-align: center;
+    font-family: var(--ub);
+    font-size: var(--lg);
+    color: var(--color1);
+    
+}
+
+.border-dark-img{
+    border-bottom: 10px solid var(--color3);
+    border-radius: 5px;
+}
+
+.title-2{
+    margin: 10px;
+    text-align: center;
+    font-family: var(--ub);
+    font-size: var(--md);
+    color: var(--color1);
+}
+.title-3{
+    font-family: var(--ub);
+    font-size: var(--md);
+    color: var(--light);
+}
+
+.text-1{
+    font-family: var(--ur);
+    font-size: var(--md);
+    color: var(--color1);
+}
+.text-2{
+    font-family: var(--ur);
+    font-size: var(--sm);
+    color: var(--color1);
+}
+
+.circle{
+    background-color: var(--light);
+    border-radius: 50%;
+}
+
+footer{
+    background-color: var(--color1);
+}
+
+.icon-logo-2{
+    background-color: var(--light);
+    border-radius: 4px;
+}
